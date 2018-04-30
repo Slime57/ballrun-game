@@ -10,6 +10,7 @@ public class Obstacle : MonoBehaviour {
 
 		if (collisionInfo.collider.tag == "Obstacle") {
 			movement.enabled = false;
+			FindObjectOfType<GameManager> ().Endgame ();
 		}
 			
 	}

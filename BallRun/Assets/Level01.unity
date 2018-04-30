@@ -396,6 +396,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1646151205519826, guid: dfedac11fe49446fa9cf6a799ce01768, type: 2}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dfedac11fe49446fa9cf6a799ce01768, type: 2}
   m_IsPrefabParent: 0

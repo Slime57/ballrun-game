@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	bool gameHasEnded = false;
+
+	public void Endgame() {
+		if (gameHasEnded == false) {
+			gameHasEnded = true;
+			Debug.Log ("GAME OVER");
+			Restart ();
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public void Restart(){
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 	}
 }
