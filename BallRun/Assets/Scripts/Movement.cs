@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public Rigidbody rb;
+
+	public float moveforce = 400;
+
+	void FixedUpdate () {
+
+		rb.AddForce (0, 0, -moveforce * Time.deltaTime);
+
+		if(Input.GetKey("a")){
+			rb.AddForce(moveforce * Time.deltaTime, 0, 0);
+		}
+
+		if(Input.GetKey("d")){
+			rb.AddForce(-moveforce * Time.deltaTime, 0, 0);
+		}
+			
 	}
 }
