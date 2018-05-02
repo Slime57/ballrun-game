@@ -7,11 +7,13 @@ public class GameManager : MonoBehaviour {
 
 	bool gameHasEnded = false;
 
+	public float restartDelay = 2f;
+
 	public void Endgame() {
 		if (gameHasEnded == false) {
 			gameHasEnded = true;
 			Debug.Log ("GAME OVER");
-			Restart ();
+			Invoke ("Restart", restartDelay);
 		}
 	}
 

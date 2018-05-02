@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour {
 
 	public Rigidbody rb;
 
-	public float moveforce = 400;
+	public float moveforce = 800;
 
 	void FixedUpdate () {
 
