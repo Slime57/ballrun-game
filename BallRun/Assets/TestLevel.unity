@@ -1976,6 +1976,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1361291702320700, guid: fbe891f14dfef419db9f5fed4b5b132f, type: 2}
+      propertyPath: m_Name
+      value: PlayerCube
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fbe891f14dfef419db9f5fed4b5b132f, type: 2}
   m_IsPrefabParent: 0
