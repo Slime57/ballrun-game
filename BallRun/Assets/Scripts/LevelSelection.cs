@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelSelection : MonoBehaviour {
+	public int LevelPoints = 0;
+
 
 	public void PlayLevel1(){
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
