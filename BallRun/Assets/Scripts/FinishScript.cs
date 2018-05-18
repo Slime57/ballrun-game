@@ -7,7 +7,7 @@ public class FinishScript : MonoBehaviour {
 
 	public float finishDelay = 3f;
 
-	void OnCollisionEnter(){
+	void OnTriggerEnter(){
 		Invoke ("FinishLevel", finishDelay);
 	}
 
