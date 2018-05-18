@@ -14,6 +14,7 @@ public class FinishScript : MonoBehaviour {
 
 	void FinishLevel(){
 		SceneManager.LoadScene ("LevelSelection");
+		GetComponent<LevelSelection> ().LevelPoints = GetComponent<LevelSelection> ().LevelPoints + 1;
 	}
 
 

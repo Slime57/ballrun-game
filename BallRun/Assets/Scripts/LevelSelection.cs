@@ -11,12 +11,21 @@ public class LevelSelection : MonoBehaviour {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 	public void PlayLevel2(){
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+		if(LevelPoints >= 1){
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+		}
+
 	}
 	public void PlayLevel3(){
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+		if(LevelPoints >= 2){
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+		}
 	}
 	public void PlayLevel4(){
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+		if(LevelPoints >= 3){
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+		}
 	}
+
+
 }
