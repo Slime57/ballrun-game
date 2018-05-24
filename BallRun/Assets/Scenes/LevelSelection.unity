@@ -1333,12 +1333,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0be020b1b317c42f394829af2d527f1d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-<<<<<<< HEAD
-<<<<<<< HEAD            //This is a question
-=======
->>>>>>> 6d4898a344353037deec5a44c22dabe7579a6994
   LevelPoints: 0
 --- !u!1 &1792989531
 GameObject:
