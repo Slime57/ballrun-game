@@ -10,5 +10,6 @@ public class LocksScript : MonoBehaviour {
 	void Start () {
 		if( ShowVariable.LevelPoints >= 1){
 			objectToDisable.SetActive (false);
+		}
 	}
 }
