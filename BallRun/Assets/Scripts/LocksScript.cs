@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class LocksScript : MonoBehaviour {
 
-	public GameObject objectToDisable;
+	public int LevelPoints;
 
 	// Use this for initialization
 	void Start () {
-		if( ShowVariable.LevelPoints >= 1){
-			objectToDisable.SetActive (false);
+		if( ShowVariable.LevelPoints >= LevelPoints){
+			gameObject.SetActive (false);
 		}
 	}
 }
