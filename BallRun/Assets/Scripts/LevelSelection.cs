@@ -8,7 +8,7 @@ public class LevelSelection : MonoBehaviour {
 
 	public void PlayLevel1(){
 		if(ShowVariable.LevelPoints == 0){
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 		}
 	}
 
