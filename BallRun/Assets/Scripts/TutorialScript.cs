@@ -39,8 +39,11 @@ public class TutorialScript : MonoBehaviour {
 		if(rb.position.z <= -118f) {
 			changingtext = "Let's see if you can beat this!";
 		}
-		if(rb.position.z <= -140f) {
+		if(rb.position.z <= -128f) {
 			changingtext = "You've done great! I think you're ready.";
+		}
+		if(rb.position.z <= -140f) {
+			changingtext = "One final tip. In regular levels, press ESCAPE to pause!";
 		}
 		if(rb.position.z <= -160f) {
 			changingtext = "This is a goal. Make it through the hole to win!";
