@@ -11,24 +11,24 @@ public class LevelSelection : MonoBehaviour {
 	}
 
 	public void PlayLevel1(){
-		if(ShowVariable.LevelPoints == 0 || ShowVariable.LevelPoints == 3){
+		if(ShowVariable.LevelPoints == 0 || ShowVariable.LevelPoints == 4){
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 		}
 	}
 
 	public void PlayLevel2(){
-		if(ShowVariable.LevelPoints == 1 || ShowVariable.LevelPoints == 3){
+		if(ShowVariable.LevelPoints == 1 || ShowVariable.LevelPoints == 4){
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
 		}
 
 	}
 	public void PlayLevel3(){
-		if(ShowVariable.LevelPoints == 2 || ShowVariable.LevelPoints == 3){
+		if(ShowVariable.LevelPoints == 2 || ShowVariable.LevelPoints == 4){
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
 		}
 	}
 	public void PlayLevel4(){
-		if(ShowVariable.LevelPoints == 3){
+		if(ShowVariable.LevelPoints == 3 || ShowVariable.LevelPoints == 4){
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
 		}
 	}
