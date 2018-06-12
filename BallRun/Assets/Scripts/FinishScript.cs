@@ -14,7 +14,9 @@ public class FinishScript : MonoBehaviour {
 
 	public void FinishLevel(){
 		SceneManager.LoadScene ("LevelSelection");
-		ShowVariable.LevelPoints++;
+		if (ShowVariable.LevelPoints < 4) {
+			ShowVariable.LevelPoints++;
+		}
 	}
 
 
