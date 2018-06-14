@@ -46,7 +46,7 @@ public class TutorialScript : MonoBehaviour {
 			changingtext = "One final tip. In regular levels, press ESCAPE to pause!";
 		}
 		if(rb.position.z <= -160f) {
-			changingtext = "This is a goal. Make it through the hole to win!";
+			changingtext = "This is a goal. Make it through the hole to win! Keep moving forward to finish the tutorial.";
 		}
 		if(rb.position.z <= -192f) {
 			changingtext = "Congradulations! Have fun!";
